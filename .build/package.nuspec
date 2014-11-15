@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>shuttle-core-domain-castle</id>
+		<version>{semver}</version>
+		<authors>Eben Roux</authors>
+		<owners>Eben Roux</owners>
+		<licenseUrl>https://github.com/shuttle/shuttle-core-domain-castle/raw/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/shuttle/shuttle-core-domain-castle</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/Shuttle/shuttle-core-domain-castle/master/.media/logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>WindsorContainer-based domain event dispatching.</description>
+		<releaseNotes/>
+		<copyright>Copyright (c) 2011-{year}, Eben Roux</copyright>
+		<tags>shuttle shuttle-core castle windsorcontainer</tags>
+		<dependencies>
+			<dependency id="Castle.Core" version="{Castle.Core-version}" />
+			<dependency id="Castle.Windsor" version="{Castle.Windsor-version}" />
+			<dependency id="shuttle-core-infrastructure" version="[{shuttle-core-infrastructure-version}]" />
+			<dependency id="shuttle-core-domain" version="[{shuttle-core-domain-version}]" />
+		</dependencies>
+	</metadata>
+</package>
